@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+rm -rf ~/Work/dataset/cutseq/test
+bash prepare_run.sh test/samplesheet/test.csv test/fastq test SE
+bash run_pipeline_test.sh
